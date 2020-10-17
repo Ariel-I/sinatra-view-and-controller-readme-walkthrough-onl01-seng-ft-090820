@@ -18,6 +18,6 @@ class App < Sinatra::Base
     <h2><%= friend %></h2>
     <% end %>
   erb :friends
-
+    end
   end
 end
